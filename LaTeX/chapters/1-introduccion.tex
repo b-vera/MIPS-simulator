@@ -1,0 +1,34 @@
+\section{Introducción}
+
+\subsection{Contexto}
+\noindent La necesidad de buscar un medio de entretención ha sido parte de la sociedad desde tiempos remotos. Así mismo es donde bajo este contexto en persia, alrededor del siglo V, se dio la creación del juego Tic Tac Toe, Tres en Línea, Ceros y Cruces, entre otros nombres. Este juego fue difundido por los musulmanes y posteriormente llevado a europa por comerciantes italianos. El juego tuvo un rápido reconocimiento, aunque tuvo un periodo oscuro donde por una asociación de este con rituales paganos macabros, este estuvo prohibido para todos los cristianos de fe catolica. \citep{TicTacToe}
+
+\noindent El juego consiste en una cuadrícula de 3x3 dentro de los cuales cada jugador debe colocar su símbolo una vez por turno y no debe ser sobre una casilla ya jugada. El ganador del juego es el jugador el cual logre realizar una línea recta o diagonal entre 3 de sus símbolos.
+
+\subsection{Problema}
+
+\noindent En este laboratorio se le solicitó a los estudiantes de ingeniería informática de la Universidad de Santiago de Chile realizar mediante una serie de algoritmos en lenguaje C, un programa que reciba un archivo de entrada con instrucciones en formato MIPS y que permita generar una partida del juego gato, es decir, poder entregar quién fue el ganador de la partida, especificar el caso en que exista un empate o que las instrucciones hayan generado una jugada invalida ,todo esto con el fin de poder medir las habilidades adquiridas durante el desarrollo de éste curso y a la vez entregar la cantidad de veces que se ha utilizado cada etapa del camino de datos.
+
+\subsection{Motivación}
+\noindent La compresión de un bajo nivel de abastracción se vuelve una ventaja comparativa al conocer cómo el software y hardware trabajan en conjunto y más especificamente, como este ultimo ejecuta las instrucciones de programa, ya que permite el desarrollo de programas más robustos, optimizados y que aprovechan al máximo el procesador.
+
+\subsection{Objetivos}
+\subsubsection{Objetivo general}
+\noindent Simular el camino de datos de un procesador monociclo y determinar qué unidades funcionales del procesador son utilizadas en secuencias de instrucciones predefinida.
+\subsubsection{Objetivos específicos}
+\noindent Entender la importancia de las líneas de control en el camino de datos y el paso de las instrucciones a través de estas.
+
+\subsection{Propuesta de solución}
+
+\noindent A primera vista, se propone generar una estructura para definir el formato de una jugada. Posterior a esto se plantea manejar el tablero a través de un arreglo estático el cual maneje las posiciones del tablero. Una vez realizado lo anterior, se deberá realizar la lectura de las instrucciones y a partir de las distintas condiciones, ir insertando o eliminando jugadas, dependiendo del caso. Para finalizar se realizarán las comprobaciones finales en el tablero.
+
+\subsection{Herramientas}
+\noindent Dentro de las Herramientas para el desarrollo de este laboratorio se encuentran:
+
+\begin{enumerate}
+    \item Lenguaje de programación C con sus respectivos recursos, tales como punteros y memoria dinámica, entre otros.
+    \item Librerías asociadas al lenguaje mencionado anteriormente, tales como \textit{stdio.h} y \textit{stdlib.h}.
+\end{enumerate}
+
+\subsection{Estructura del informe}
+\noindent El presente escrito presenta a continuación conceptos que fueron la base principal en la que se desarro   lló la solución del problema, tales como punteros, memoria dinámica, entre otros, con el fin de exponer la investigación realizada, la descripción de la solución, el análisis de estos y las conclusiones.
